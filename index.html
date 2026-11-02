@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Friyah Mansibang | IT Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="portfolio">
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- LEFT SIDEBAR -->
+    <aside class="sidebar">
+
+        <a href="#home" class="sidebar-brand">
+            <img src="logo.jpg" alt="My Logo" class="logo"> 
+            <span>FRIYAH<br>CASZANDRA<br>MANSIBANG</span>
+        </a>
+
+        <div class="sidebar-profile">
+            <span class="status-dot"></span>
+            <span>DIT STUDENT</span>
+            <p>Aspiring Application Security Engineer</p>
+        </div>
+
+        <div class="sidebar-heading">NAVIGATION</div>
+
+        <nav class="side-nav">
+            <a href="#home" class="nav-link active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+
+            <a href="#about" class="nav-link">
+                <i class="fa-regular fa-user"></i>
+                <span>About</span>
+            </a>
+
+            <a href="#stack" class="nav-link">
+                <i class="fa-solid fa-terminal"></i>
+                <span>Tech Stack</span>
+            </a>
+
+            <a href="#projects" class="nav-link">
+                <i class="fa-solid fa-code"></i>
+                <span>Projects</span>
+            </a>
+
+            <a href="#contact" class="nav-link">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Contact</span>
+            </a>
+        </nav>
+
+        <div class="sidebar-bottom">
+
+            <div class="sidebar-heading">ELSEWHERE</div>
+
+            <div class="socials">
+                <a href="https://github.com/aceasync"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/friyah-caszandra-mansibang-665aa2446"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="mailto:friyahcaszandramansibang@gmail.com"
+                   aria-label="Email">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+
+                <a href="https://www.facebook.com/friyah.mansibang.1"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+            </div>
+
+            <div class="sidebar-footer">
+                <span>DESIGNED & BUILT BY</span>
+                <p>Friyah Mansibang © 2026</p>
+            </div>
+
+        </div>
+
+    </aside>
+  
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+        <!-- TOP BAR -->
+        <header class="topbar">
+            <div class="breadcrumb">
+                <span class="breadcrumb-muted">PORTFOLIO</span>
+                <span class="breadcrumb-divider">/</span>
+                <span>FRIYAH MANSIBANG</span>
+            </div>
+
+            <span class="topbar-status">
+                <span class="status-dot"></span>
+                OPEN TO LEARNING
+            </span>   
+
+            <!-- THEME TOGGLE -->
+            <button
+                class="theme-toggle"
+                id="themeToggle"
+                type="button"
+                aria-label="Switch to light mode"
+                title="Switch theme"
+            >
+                <i class="fa-solid fa-sun"></i>
+            </button>
+
+            <!-- MOBILE MENU TOGGLE -->
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </header>
+
+
+        <!-- HERO -->
+        <section class="hero section" id="home">
+
+            <div class="hero-copy">
+
+                <div class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    BEYOND THE SYNTAX
+                </div>
+
+                <p class="hero-greeting">Hello, world. I'm Friyah.</p>
+
+                <h1>
+                    Thinking in<br>
+                    <span>systems.</span><br>
+                    Dreaming in<br>
+                    <span>possibilities.</span>
+                </h1>
+
+                <p class="hero-description">
+                    A DIT student exploring software development,
+                    cybersecurity, and the intersection of technology
+                    and human experiences.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="button button-primary">
+                        EXPLORE MY WORK
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <a href="#about" class="button button-secondary">
+                        GET TO KNOW ME
+                    </a>
+                </div>
+
+                <div class="hero-caption">
+                    <span>01 / INTRODUCTION</span>
+                    <span>BEYOND THE SYNTAX.</span>
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual">
+
+                <div class="portrait-frame">
+
+                    <div class="portrait-top">
+                        <span>FIG. 001</span>
+                        <span>THE DEVELOPER</span>
+                    </div>
+
+                    <img src="ace.jpg"
+                         alt="Portrait of Friyah Mansibang"
+                         class="portrait">
+
+                    <div class="portrait-bottom">
+                        <span>FRIYAH CASZANDRA B. MANSIBANG</span>
+                        <span>DIT / STUDENT</span>
+                    </div>
+
+                </div>
+
+                <div class="visual-note">
+                    <span class="note-symbol">♠</span>
+                    <p>Curiosity is where<br>everything begins.</p>
+                </div>
+
+                <div class="vertical-label">PERSONAL PORTFOLIO — 2026</div>
+
+            </div>
+
+        </section>
+
+        <!-- ABOUT + TECH STACK -->
+        <section class="details-grid section">
+
+            <!-- ABOUT -->
+            <article class="about-panel section" id="about">
+
+                <span class="section-index">01 / A LITTLE ABOUT ME</span>
+
+                <h2>
+                    More than just<br>
+                    <span>lines of code.</span>
+                </h2>
+
+                <p>
+                    I'm Friyah Caszandra Bullecer Mansibang, 
+                    a Diploma in Information Technology
+                    student at the Polytechnic University of the Philippines
+                    - TAGUIG CAMPUS, interested in how technology works and
+                    how it can make a meaningful difference.
+                </p>
+
+                <p>
+                    I'm currently exploring software development,
+                    cybersecurity, and web technologies while
+                    strengthening my problem-solving skills through
+                    hands-on projects and continuous learning.
+                </p>
+
+                <p>
+                    Beyond the technical side, I value creativity,
+                    thoughtful design, and building things with purpose.
+                </p>
+
+                <div class="about-signature">
+                    <span>ALWAYS LEARNING.</span>
+                    <span>ALWAYS BUILDING.</span>
+                </div>
+
+            </article>
+
+
+            <!-- TECH STACK -->
+            <article class="stack-panel section" id="stack">
+
+                <span class="section-index">02 / MY TOOLKIT</span>
+
+                <h2>Tools of the <span>trade.</span></h2>
+
+                <p class="stack-intro">
+                    Languages I'm currently learning and working with.
+                </p>
+
+                <div class="stack-list">
+
+                    <div class="stack-item">
+                        <span class="stack-number">01</span>
+                        <div>
+                            <h3>Java</h3>
+                            <p>Programming / Data Structures</p>
+                        </div>
+                        <i class="fa-brands fa-java"></i>
+                    </div>
+
+                    <div class="stack-item">
+                        <span class="stack-number">02</span>
+                        <div>
+                            <h3>HTML & CSS</h3>
+                            <p>Web Development / UI Structure</p>
+                        </div>
+                        <i class="fa-brands fa-html5"></i>
+                    </div>
+
+                    <div class="stack-item">
+                        <span class="stack-number">03</span>
+                        <div>
+                            <h3>PHP & MySQL</h3>
+                            <p>Server-side / Database Fundamentals</p>
+                        </div>
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+
+                    <div class="stack-item">
+                        <span class="stack-number">04</span>
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Web Interactivity / Fundamentals</p>
+                        </div>
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+
+                    <div class="stack-item">
+                        <span class="stack-number">05</span>
+                        <div>
+                            <h3>Cybersecurity</h3>
+                            <p>Security Concepts / Ongoing Learning</p>
+                        </div>
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+
+                </div>
+
+                <p class="stack-note">
+                    A growing toolkit, one project at a time.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- SELECTED PROJECTS -->
+        <section class="projects section" id="projects">
+
+            <div class="section-header">
+
+                <div>
+                    <span class="section-index">03 / SELECTED WORK</span>
+                    <h2>Things I've been <span>building.</span></h2>
+                </div>
+
+                <span class="section-description">
+                    A collection of projects, experiments,<br>
+                    and ideas in progress.
+                </span>
+
+            </div>
+
+
+            <div class="project-grid">
+
+                <!-- PROJECT 1 -->
+                <article class="project-card">
+
+                    <div class="project-meta">
+                        <span>PROJECT / 001</span>
+                        <span class="project-status">CONCEPT</span>
+                    </div>
+
+                    <div class="project-art project-art-one">
+                        <i class="fa-solid fa-book"></i>
+                        <span class="art-caption">YOUR SPACE.<br>YOUR PACE.<br>YOUR POSSIBILITIES.</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-category">ACADEMIC PLANNING / ORGANIZATION</div>
+
+                        <h3>♠ ACE ASTRA</h3>
+
+                        <p>
+                            A centralized academic planner designed 
+                            to help students organize coursework, 
+                            manage deadlines, and monitor their
+                            study progress.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        LEARN MORE <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+                <article class="project-card">
+
+                    <div class="project-meta">
+                        <span>PROJECT / 002</span>
+                        <span class="project-status">CONCEPT</span>
+                    </div>
+
+                    <div class="project-art project-art-two">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <span class="art-caption">EUNOIA<br>THE ART OF UNDERSTANDING YOURSELF</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-category">PSYCHOLOGY / SELF-AWARENESS</div>
+
+                        <h3>♠ ACE EUNOIA</h3>
+
+                        <p>
+                            A personal self-awareness and emotional reflection 
+                            platform designed to help individuals explore their 
+                            emotions, understand behavioral patterns, discover 
+                            personal values, and document their journey toward 
+                            personal growth.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>UI/UX</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        LEARN MORE <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+                <article class="project-card">
+
+                    <div class="project-meta">
+                        <span>PROJECT / 003</span>
+                        <span class="project-status">ONGOING</span>
+                    </div>
+
+                    <div class="project-art project-art-three"> 
+                        <i class="fa-solid fa-pen"></i>
+                        <span class="art-caption">ENTER THE CODE.<br>EXPLORE THE SPACE.</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <div class="project-category">CREATIVE / WEB DESIGN</div>
+
+                        <h3>♠ ACE OF SPACES</h3>
+
+                        <p>
+                            A personal creative space exploring identity,
+                            storytelling, emotions, and the experiences
+                            that shape who we become.
+                        </p>
+
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>STORYTELLING</span>
+                            <span>CREATIVE DESIGN</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#contact" class="project-link">
+                        LEARN MORE <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+            </div>
+
+            <p class="projects-note">
+                <i class="fa-solid fa-circle-info"></i>
+                Project descriptions reflect their current concepts
+                and development stages.
+            </p>
+
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+
+            <span class="section-index">04 / LET'S CONNECT</span>
+
+            <h2>
+                Have an idea?<br>
+                <span>Let's make it work.</span>
+            </h2>
+
+            <p>
+                I'm always open to learning, collaborating,
+                and connecting with people who enjoy building
+                meaningful things with technology.
+            </p>
+
+            <a href="mailto:friyahcaszandramansibang@gmail.com"
+               class="button button-primary">
+                GET IN TOUCH
+                <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <div class="contact-bottom">
+                <span>FRIYAH CASZANDRA MANSIBANG</span>
+                <span>BEYOND THE SYNTAX. © 2026</span>
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <span>DESIGNED WITH PURPOSE.</span>
+            <a href="#home">BACK TO TOP ↑</a>
+        </footer>
+
+    </main>
+
+</div>
+
+<script>
+
+// MOBILE NAVIGATION
+
+const menuToggle = document.getElementById("menuToggle");
+const sidebar = document.querySelector(".sidebar");
+const sidebarOverlay = document.getElementById("sidebarOverlay");
+const navLinks = document.querySelectorAll(".nav-link");
+
+function closeSidebar() {
+    sidebar.classList.remove("sidebar-open");
+    sidebarOverlay.classList.remove("overlay-visible");
+
+    menuToggle.setAttribute("aria-expanded", "false");
+    menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+}
+
+function toggleSidebar() {
+    const isOpen = sidebar.classList.toggle("sidebar-open");
+
+    sidebarOverlay.classList.toggle("overlay-visible", isOpen);
+
+    menuToggle.setAttribute("aria-expanded", isOpen);
+
+    menuToggle.innerHTML = isOpen
+        ? '<i class="fa-solid fa-xmark"></i>'
+        : '<i class="fa-solid fa-bars"></i>';
+}
+
+menuToggle.addEventListener("click", toggleSidebar);
+
+sidebarOverlay.addEventListener("click", closeSidebar);
+
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+
+        navLinks.forEach(item => {
+            item.classList.remove("active");
+        });
+
+        link.classList.add("active");
+
+        closeSidebar();
+    });
+});
+
+
+
+    // DARK / LIGHT MODE
+
+
+    const themeToggle = document.getElementById("themeToggle");
+    const themeIcon = themeToggle.querySelector("i");
+
+    // Apply the selected theme
+    function setTheme(theme) {
+        const isLight = theme === "light";
+
+        document.body.classList.toggle("light-mode", isLight);
+
+        // Show the icon for the next available theme
+        themeIcon.className = isLight
+            ? "fa-solid fa-moon"
+            : "fa-solid fa-sun";
+
+        // Update accessibility information
+        themeToggle.setAttribute(
+            "aria-label",
+            isLight
+                ? "Switch to dark mode"
+                : "Switch to light mode"
+        );
+
+        // Remember the user's preference
+        localStorage.setItem("portfolio-theme", theme);
+    }
+
+    // Restore the previously selected theme
+    const savedTheme = localStorage.getItem("portfolio-theme");
+
+    setTheme(savedTheme === "light" ? "light" : "dark");
+
+    // Switch themes when the button is clicked
+    themeToggle.addEventListener("click", () => {
+        const isCurrentlyLight =
+            document.body.classList.contains("light-mode");
+
+        setTheme(isCurrentlyLight ? "dark" : "light");
+    });
+</script>
+
+</body>
+</html>
